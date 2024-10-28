@@ -1,0 +1,461 @@
+
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*--------- Navbar Start ---------*/
+.navbar{
+	background-color: black!important;
+}
+.navbar .navbar-brand span{
+	color: white;
+	font-size: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.navbar .nav-item{
+    padding: 10px;
+    margin-left: 14px;
+
+}
+
+.navbar .nav-item img .Farhana{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+.navbar .nav-item .nav-link{
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+
+}
+
+.navbar .nav-item .nav-link.active{
+	border-bottom: 1px solid white;
+}
+.navbar .nav-item .nav-link:hover{
+	border-bottom: 1px solid white;
+}
+
+
+
+/*--------- Navbar End ---------*/
+
+/* banner area start */
+.banner-area {
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    
+}
+
+
+
+.banner-area h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    padding: 250px 70px 10px 150px;
+}
+
+
+.banner-area  h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 70px 10px 150px;
+}
+
+
+.banner-area .btn{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    border: 1px solid #171717;
+    color: #ffffff;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    margin-top: 35px;
+    text-decoration: none;
+    
+    
+}
+
+.banner-area .btn:hover{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.banner-area .nazifa{
+   padding-left: 155px;
+   border-radius: 5px;
+}
+
+
+
+/* banner area end */
+
+
+/* Department Area Start 
+----------------------------*/
+
+
+.our-department .ontainer .line-2{
+    width: 70px;
+    margin: auto;
+    border: 3px solid rgb(35, 163, 35);
+}
+
+
+.our-department .card{
+    overflow: hidden;
+    border: none;
+    
+    
+}
+
+.our-department .card .img-box{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.our-department .card:hover .img-box img{
+  background-color: rgb(49, 158, 49);
+  transition: .6s;
+}
+.our-department .card .img-box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-department .card .title{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    font-weight: 500;
+    text-align: center;
+}
+.our-department .card .title:hover{
+    color: var(--primary-color);
+    transition: .6s;
+}
+.our-department .card p{
+    margin-top: 10px;
+    color: var(--color-00);
+    font-size: var(--size-md);
+    font-weight: 500;
+}
+.our-department .card .l-more{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--size-md);
+    font-weight: 500;
+}
+.our-department .card .l-more:hover{
+    text-decoration: underline;
+}
+
+.our-department .container .line-1{
+    width: 70px;
+    margin: auto;
+    border: 1px solid rgb(35, 163, 35);
+}
+.our-department .card {
+    margin-top: 10px;
+    color: var(--color-00);
+    font-size: var(--size-md);
+    font-weight: 500;
+}
+
+/* Department Area End 
+----------------------------*/
+/* about area start */
+
+.about-area .card .img-box{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.about-area .card:hover .img-box img{
+  background-color: rgb(49, 158, 49);
+  transition: .6s;
+}
+.about-area  .card .img-box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-area .card .title{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    font-weight: 500;
+    text-align: center;
+}
+.about-area .card .line-1{
+    width: 70px;
+    margin: auto;
+    border: 1px solid rgb(35, 163, 35);
+}
+
+
+
+.about_section {
+    text-align: center;
+}
+
+.about_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.about_section .box .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.about_section .box .img-box img {
+    max-width: 100%;
+    -webkit-filter: drop-shadow(0px 36px 13px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 36px 13px rgba(0, 0, 0, 0.3));
+}
+
+.about_section .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.about_section .btn-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    border: 1px solid #171717;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+.about_section .btn-box a:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about_section .container .line-1{
+    width: 70px;
+    margin: auto;
+    border: 2px solid rgb(35, 163, 35);
+    font-weight: bold;
+}
+
+/* about area end */
+
+/* app section area start */
+
+.section-are{
+    background-color: aqua!important;
+}
+
+.download-b0x .btn-box a{
+  
+    display: flex;
+    margin: 0 5px;
+}
+
+
+
+
+/* app secton area end */
+
+
+/*testmonial area start*/
+.custom-card {
+    display: flex;
+    max-width: 700px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.image-side img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-side h5 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.image-side p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.content-side {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.content-side p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.testmonial .btn-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #171717;
+    border: 1px solid #171717;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+.testmonial .btn-box a:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.testmonial .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+/*testmonial area end*/
+
+/*------- Footer Area Start --------*/
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0C0C0C;
+    border-top: 1px solid #83C2FE;
+}
+
+footer .f-heading h5{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    line-height: 32px;
+    color: #B6B6B6!important;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #B6B6B6;
+}
+
+footer form input,button{
+    border-radius: 0!important;
+}
+
+footer p{
+    color: #B6B6B6;
+}
+
+
+/*------- Footer Area End --------*/
+
+/* Copyright Area  Start 
+----------------------------*/
+
+.copyright-area span{
+    color:white;
+}
+
+
+#coLor{
+    text-decoration: none;
+}
+
+
+
+
+/* Copyright Area   End 
+----------------------------*/
+/* footer area end */
+
+
+
+

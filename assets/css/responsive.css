@@ -1,0 +1,20 @@
+
+@media only screen and (max-width: 768px){
+
+	.main-wrapper{
+		text-align: center;
+	}
+
+	.payment-method-area .payment-way{
+		flex-direction: column;
+	}
+
+	footer .logo{
+		display: flex;
+		justify-content: center!important;
+	}
+	
+
+
+
+}
